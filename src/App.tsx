@@ -125,7 +125,8 @@ function App() {
             </div>
             
             <div className="hero-right">
-              <div className="map-top" style={{ height: '650px', padding: 0, margin: 0, overflow: 'visible' }}>
+              {/* Desktop interactive map (hidden on mobile/tablet via CSS) */}
+              <div className="map-top desktop-map" style={{ height: '650px', padding: 0, margin: 0, overflow: 'visible' }}>
                 <ComposableMap 
                   projectionConfig={{ scale: 670 , center: [17, 2] }} 
                   projection="geoMercator" 

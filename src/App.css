@@ -166,6 +166,12 @@
   justify-content: flex-end;
 }
 
+/* Hide the interactive map on mobile and tablet */
+.desktop-map { display: block; }
+@media (max-width: 1024px) {
+  .desktop-map { display: none; }
+}
+
 .map-container {
   position: relative;
   width: 100%;
