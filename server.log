@@ -1,0 +1,18 @@
+
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+ErrorEXError [JSONError]: JSON Error in /Users/sravanimalla/package.json:
+Unexpected token '/', "// Name : "... is not valid JSON while parsing '// Name : Sravani Malla// PSU ID: 9406'
+    at parseJson (/Users/sravanimalla/Documents/giveAfrica/node_modules/parse-json/index.js:29:21)
+    at Object.loadJson (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/loaders.js:28:20)
+    at ExplorerSync.loadPackageProp (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerBase.js:82:44)
+    at ExplorerSync.loadFileContentSync (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerSync.js:84:26)
+    at ExplorerSync.createCosmiconfigResultSync (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerSync.js:89:30)
+    at ExplorerSync.loadSearchPlaceSync (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerSync.js:70:25)
+    at ExplorerSync.searchDirectorySync (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerSync.js:55:32)
+    at run (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerSync.js:35:27)
+    at cacheWrapperSync (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/cacheWrapper.js:28:18)
+    at ExplorerSync.searchFromDirectorySync (/Users/sravanimalla/Documents/giveAfrica/node_modules/fork-ts-checker-webpack-plugin/node_modules/cosmiconfig/dist/ExplorerSync.js:47:49)
+
+Node.js v20.10.0
